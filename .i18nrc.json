@@ -1,0 +1,7 @@
+{
+  "prefix": "wind",
+  "paths": {
+    "wind": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}

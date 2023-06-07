@@ -1,0 +1,15 @@
+{
+  "name": "wind",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn plugin-helpers build --kibana-version 8.8.0 --debug --verbose",
+    "dev": "yarn plugin-helpers dev",
+    "plugin-helpers": "node ../../scripts/plugin_helpers",
+    "kbn": "node ../../scripts/kbn"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.15",
+    "graphql": "^16.6.0"
+  }
+}

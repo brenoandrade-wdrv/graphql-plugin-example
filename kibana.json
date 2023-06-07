@@ -1,0 +1,14 @@
+{
+  "id": "wind",
+  "version": "8.8.0",
+  "kibanaVersion": "kibana",
+  "owner": {
+    "name": "WRA",
+    "githubTeam": ""
+  },
+  "description": "wind river",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": ["navigation"],
+  "optionalPlugins": []
+}
