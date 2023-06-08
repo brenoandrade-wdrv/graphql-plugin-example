@@ -72,7 +72,7 @@ export const WindApp = ({ basename, notifications, http, navigation }: WindAppDe
   const [page, setPage] = useState(1);
 
   //Issues on bundle seems to be related to Apollo Client caching
-  const cache = new InMemoryCache();
+  //const cache = new InMemoryCache();
 
   //Initialize Apollo Client - Rick and Morty Open API
   const client = new ApolloClient({
